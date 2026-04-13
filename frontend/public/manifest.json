@@ -1,6 +1,6 @@
 {
-    "name": "Dockge",
-    "short_name": "Dockge",
+    "name": "Assetbox Console",
+    "short_name": "Assetbox",
     "start_url": "/",
     "background_color": "#fff",
     "display": "standalone",

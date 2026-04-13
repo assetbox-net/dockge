@@ -120,12 +120,16 @@ optgroup {
 
 .btn-primary {
     color: white;
-    background: $primary-gradient;
+    background-color: $primary-gradient;
+    background-image: none;
+    border-color: $primary-gradient;
 
     &:hover, &:active, &:focus, &.active {
         color: white;
-        background: $primary-gradient-active;
-        border-color: $highlight;
+        background-color: $primary-gradient-active;
+        background-image: none;
+        border-color: $primary-gradient-active;
+        box-shadow: none;
     }
 
     .dark & {
